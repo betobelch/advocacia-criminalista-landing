@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Advocacia Criminalista | Defesa Rápida de Direitos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="logo">
+                <i class="fas fa-gavel"></i>
+                <h1>Advocacia Criminalista</h1>
+            </div>
+            <nav class="nav-desktop">
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button id="menu-btn" class="nav-mobile-btn" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <nav id="mobile-menu" class="nav-mobile hidden">
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container mx-auto text-center">
+            <div class="carousel">
+        <div class="carousel__item carousel__item--left">
+          <img src="../assets/img/advocacia.png" alt="">
+          <div class="carousel__text">
+          </div>
+        </div>
+        <div class="carousel__item carousel__item--main">
+          <img src="../assets/img/advocacia.png" alt="">
+          <div class="carousel__text">
+          </div>
+        </div>
+        <div class="carousel__item carousel__item--right">
+          <img src="../assets/img/advocacia.png" alt="">
+          <div class="carousel__text">
+          </div>
+        </div>
+        <div class="carousel__btns">
+          <button class="carousel__btn" id="leftBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m15 4l2 2l-6 6l6 6l-2 2l-8-8z"/></svg></button>
+          <button class="carousel__btn" id="rightBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z"/></svg></button>
+        </div>
+      </div>
+            <h2 class="hero-title">Precisa de Defender Seus Direitos com Urgência?</h2>
+            <p class="hero-subtitle">
+                Somos especialistas em defesa criminalista rápida e eficaz. Proteja seus direitos hoje mesmo – atendimento imediato para casos de urgência.
+            </p>
+            <a href="whatsapp://send?phone=5511999999999&text=Ol%C3%A1,%20preciso%20de%20defesa%20r%C3%A1pida%20em%20um%20caso%20criminal." class="btn-whatsapp" aria-label="Contato via WhatsApp">
+                <i class="fab fa-whatsapp"></i> Contatar via WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="services-section">
+        <div class="container mx-auto text-center">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <h3>Defesa Criminal Rápida</h3>
+                    <p>Atuação imediata em casos de prisão, inquéritos e processos criminais para defender seus direitos de forma ágil.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Consultoria Jurídica</h3>
+                    <p>Orientações rápidas sobre direitos, estratégias de defesa e possibilidades de solução para seu caso.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Acompanhamento de Processo</h3>
+                    <p>Monitoramento constante do andamento do caso, garantindo defesa eficaz em todas as etapas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="about-section">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="section-title text-center">Por Quê Escolher Nossos Serviços?</h2>
+            <div class="about-grid">
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Especialistas com anos de experiência em defesa criminal.</li>
+                    <li><i class="fas fa-check-circle"></i> Atendimento prioritário para casos de urgência, garantindo resposta imediata.</li>
+                    <li><i class="fas fa-check-circle"></i> Estratégias personalizadas para cada situação, focadas em resultados positivos.</li>
+                </ul>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Compromisso com a ética e transparência em todas as ações.</li>
+                    <li><i class="fas fa-check-circle"></i> Defesa dos seus direitos com rapidez e eficiência, minimizando impactos.</li>
+                    <li><i class="fas fa-check-circle"></i> Disponibilidade 24/7 para emergências legais.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+            <a href="whatsapp://send?phone=5511999999999&text=Ol%C3%A1,%20preciso%20de%20defesa%20r%C3%A1pida%20em%20um%20caso%20criminal." 
+                    class="btn-whatsapp-expand" 
+                    aria-label="Contato rápido via WhatsApp" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
+                <span class="btn-text">Me contate</span>
+            </a>
+    <!-- Footer -->
+    <footer id="contato" class="footer">
+        <div class="container mx-auto text-center">
+            <p>Entre em contato conosco para uma defesa rápida e eficaz dos seus direitos.</p>
+            <a href="whatsapp://send?phone=5511999999999&text=Ol%C3%A1,%20preciso%20de%20defesa%20r%C3%A1pida%20em%20um%20caso%20criminal." class="btn-whatsapp" aria-label="Enviar mensagem via WhatsApp">
+                <i class="fab fa-whatsapp"></i> Enviar Mensagem via WhatsApp
+            </a>
+            <p class="footer-copy">Advocacia Criminalista &copy; 2023. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle menu mobile
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Alert for WhatsApp links on desktop
+        document.querySelectorAll('a[href^="whatsapp://"]').forEach(link => {
+            link.addEventListener('click', e => {
+                const ua = navigator.userAgent.toLowerCase();
+                if (!/android|iphone|ipad/.test(ua)) {
+                    alert('Este link abre no WhatsApp. Certifique-se de ter o app instalado no seu dispositivo ou use WhatsApp Web.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
