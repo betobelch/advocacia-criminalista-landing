@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/src/pages/index.html"
+    "livePreview.defaultPreviewPath": "/src/pages/index.html",
+    "liveServer.settings.multiRootWorkspaceName": "advocacia-criminalista-landing"
 }

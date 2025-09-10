@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
 </head>
-<body>
+<div>
     <!-- Header -->
     <header class="header">
         <div class="container mx-auto flex justify-between items-center">
@@ -32,30 +32,26 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container mx-auto text-center">
+</div>
+     <section class="hero-section flex flex-col items-center justify-center" style="min-height: 600px;">
+        <div class="carousel-wrapper mb-8">
             <div class="carousel">
-        <div class="carousel__item carousel__item--left">
-          <img src="../assets/img/advocacia.png" alt="">
-          <div class="carousel__text">
-          </div>
+                <!-- Itens do carrossel -->
+                <div class="carousel__item carousel__item--left">
+                    <img src="../assets/img/advocacia.png" alt="">
+                </div>
+                <div class="carousel__item carousel__item--main">
+                    <img src="../assets/img/advocacia.png" alt="">
+                </div>
+                <div class="carousel__item carousel__item--right">
+                    <img src="../assets/img/advocacia.png" alt="">
+                </div>
+                <div class="carousel__btns">
+                    <!-- Botões -->
+                </div>
+            </div>
         </div>
-        <div class="carousel__item carousel__item--main">
-          <img src="../assets/img/advocacia.png" alt="">
-          <div class="carousel__text">
-          </div>
-        </div>
-        <div class="carousel__item carousel__item--right">
-          <img src="../assets/img/advocacia.png" alt="">
-          <div class="carousel__text">
-          </div>
-        </div>
-        <div class="carousel__btns">
-          <button class="carousel__btn" id="leftBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m15 4l2 2l-6 6l6 6l-2 2l-8-8z"/></svg></button>
-          <button class="carousel__btn" id="rightBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z"/></svg></button>
-        </div>
-      </div>
+        <div class="container mx-auto text-center">
             <h2 class="hero-title">Precisa de Defender Seus Direitos com Urgência?</h2>
             <p class="hero-subtitle">
                 Somos especialistas em defesa criminalista rápida e eficaz. Proteja seus direitos hoje mesmo – atendimento imediato para casos de urgência.

@@ -8,7 +8,7 @@ body, h1, h2, h3, p, ul, li, a, button {
 /* Fonte e cores gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #444444;
+    background-color: #d1d1d1;
     color: #1f2937; /* cinza escuro */
 }
 
@@ -90,12 +90,33 @@ body {
     background-color: #374151;
     color: #f9fafb;
 }
+.nav-mobile-btn {
+    background: linear-gradient(90deg, #ba8b02, #181818);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(186,139,2,0.15);
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    font-size: 1.5rem;
+}
+
+.nav-mobile-btn:hover,
+.nav-mobile-btn:focus {
+    background: linear-gradient(90deg, #ffd700, #ba8b02);
+    box-shadow: 0 4px 16px rgba(186,139,2,0.25);
+    outline: none;
+}
 
 /* Hero Section */
 .hero-section {
     background-color: #f3f4f6; /* cinza claro */
     padding: 4rem 1.5rem;
-    text-align: center;
 }
 
 .hero-image-wrapper img {
@@ -366,17 +387,28 @@ button:focus {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 250px; /* ajuste conforme necessário */
-    height: 400px;    /* ajuste conforme necessário */
+    max-width: 800px; 
+    height: 560px;    
 }
+.carousel-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #ba8b02, #181818);
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    padding: 2rem 0;
+}
+
 .carousel__item {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     height: 35rem;
     width: 25rem;
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1rem 4rem rgba(0,0,0,.5);
-    position: absolute;
     transform: translate(-50%,-50%) scale(.1);
     z-index: 0;
     transition: all .2s linear;
@@ -385,6 +417,13 @@ button:focus {
     width: 100%;
     min-height: 100%;
     object-fit: cover;
+    border: 4px solid #ba8b02;      /* borda dourada */
+    border-radius: 1rem;            /* cantos arredondados */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12); /* sombra leve */
+    transition: border-color 0.3s;
+}
+.carousel__item img:hover {
+    border-color: #ffd700;          /* borda mais clara ao passar o mouse */
 }
 
 .carousel__item--main {
