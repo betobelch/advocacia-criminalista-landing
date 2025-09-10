@@ -7,9 +7,8 @@ body, h1, h2, h3, p, ul, li, a, button {
 
 /* Fonte e cores gerais */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #d1d1d1;
-    color: #1f2937; /* cinza escuro */
+    font-family: 'Merriweather', 'Georgia', serif;
+    background: linear-gradient(120deg, #f3f4f6 60%, #ba8b02 100%);
 }
 
 /* Container */
@@ -146,8 +145,8 @@ body {
 }
 
 .btn-whatsapp {
-    background-color: #111827;
-    color: #d1fae5; /* verde claro suave */
+    background: linear-gradient(90deg, #ba8b02, #181818);
+    color: #fff;/* verde claro suave */
     font-weight: 700;
     padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
@@ -155,7 +154,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    box-shadow: 0 4px 6px rgb(0 0 0 / 0.15);
+    box-shadow: 0 4px 16px rgba(186,139,2,0.15);
     transition: background-color 0.3s ease;
 }
 
@@ -173,10 +172,9 @@ body {
 }
 
 .section-title {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #111827;
-    margin-bottom: 2rem;
+    font-family: 'Merriweather', serif;
+    color: #ba8b02;
+    letter-spacing: 1px;
 }
 
 .services-grid {
@@ -193,10 +191,10 @@ body {
 
 .service-card {
     background-color: #fff;
-    border: 1px solid #d1d5db;
+    border: 2px solid #ba8b02;
     border-radius: 0.5rem;
     padding: 2rem;
-    box-shadow: 0 2px 6px rgb(0 0 0 / 0.05);
+    box-shadow: 0 4px 16px rgba(186,139,2,0.08);
     transition: box-shadow 0.3s ease;
 }
 
